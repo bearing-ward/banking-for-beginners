@@ -1,0 +1,28 @@
+{
+  "name": "@bfb/lessons",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.test.json"
+  },
+  "dependencies": {
+    "effect": "4.0.5"
+  },
+  "hvs": {
+    "checks": {
+      "projects": [
+        {
+          "config": "tsconfig.json",
+          "environment": "neutral"
+        },
+        {
+          "config": "tsconfig.test.json",
+          "environment": "tool"
+        }
+      ]
+    }
+  }
+}

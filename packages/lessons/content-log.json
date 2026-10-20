@@ -1,0 +1,692 @@
+{
+  "entries": [
+    {
+      "date": "2026-10-20",
+      "key": "banking/banks-and-credit-unions",
+      "kind": "added",
+      "hash": "333d5450442569bc521b8f2cb331745e2cc3a7f8226d6ad0ba645da0d99509e1",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "banking/checking-and-savings",
+      "kind": "added",
+      "hash": "b9a4fc3f05b27c23695471114b9c0dbc2699289876c6a355a959753cc977b19a",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "banking/debit-cards",
+      "kind": "added",
+      "hash": "01c9534ea6d3ab232edbc786dd86bcd7f7ba9a9f9e5e7e77dedc0cb279bbdb02",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "banking/keeping-money-safe-fdic",
+      "kind": "added",
+      "hash": "f08456359d4ab5d391c0c38994502b18a57c1e305549a0a7b8fb22debf62b874",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "banking/opening-your-first-account",
+      "kind": "added",
+      "hash": "71d6cea82156c8aa525adb61581138273b876f4ff12d4618050a64c8ac6806f6",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "banking/overdraft-fees",
+      "kind": "added",
+      "hash": "d2bcd6c6ddd54b203765f421171e2d7b07f5153ccb78d52f2f7ad835d813af3f",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "banking/payment-apps",
+      "kind": "added",
+      "hash": "93d9c7454365deab9077c1b306719a02a4206c3678fa5143db4ce1126ce26b94",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "banking/reading-a-bank-statement",
+      "kind": "added",
+      "hash": "88fb88e59e9105e0a30d1d01cfe3de44872f4f235c79867cc1891f508db1d3d1",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "budgeting/first-apartment-costs",
+      "kind": "added",
+      "hash": "09786ad0f3d39c44708ed83fa45728a4e7d76ca387b4a0a9eadcd869d0673b82",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "budgeting/fixed-and-variable-costs",
+      "kind": "added",
+      "hash": "4714d1f15e4cd8a9554035d7c9a5ee18c04d776452f5e80318dcd77ef10dc5c1",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "budgeting/making-a-budget",
+      "kind": "added",
+      "hash": "309ca8239834fb3db0e1547eff87d4f818907a5aa76d2ade08e4b0c91c9b35e6",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "budgeting/paying-bills-on-time",
+      "kind": "added",
+      "hash": "5cd143393c5b2a1bc0aef96ee5d310323b8462496086661034e7f2f15337d0e2",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "budgeting/splitting-bills-with-roommates",
+      "kind": "added",
+      "hash": "b5da6a5477e0eba919f35f9a8869baecb0685132c3c95361cbf5dd6a8bacfb14",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "budgeting/subscriptions",
+      "kind": "added",
+      "hash": "dd116c0afcdda9af698323980f67ec2495922b6ecb39bc97e1e1585c019b3800",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "budgeting/tracking-spending",
+      "kind": "added",
+      "hash": "836224e80eee591d58bee0f5cd8dcbd4477c189eb95c4d4ebe9f98dc55090da5",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "budgeting/your-phone-plan",
+      "kind": "added",
+      "hash": "6e6d4cf2558b301a8c9f6ed0712bd3ff02d30f90ca8f790e325a959b6c5c08b5",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "college/borrowing-wisely",
+      "kind": "added",
+      "hash": "06a824e4b8b5f88a294a4c05be0b6228ab503e4787a6a7846153ac17ea2fbcd1",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "college/cost-of-attendance",
+      "kind": "added",
+      "hash": "16597e7a3e3f2ca48c507e61011993b72f1c8983d6ebe5888fd2d8603d2da1f7",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "college/federal-and-private-student-loans",
+      "kind": "added",
+      "hash": "e9bf2bb26f27c8f5b6ca07d3fe2af3372c3fb094c7388320c75f1c3a4df5cfcc",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "college/other-paths",
+      "kind": "added",
+      "hash": "3fa2b6675c75c962c363dac8e6aea843e4b510fc19c8f64a6cd3eef30e89d238",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "college/scholarships-and-grants",
+      "kind": "added",
+      "hash": "17916b8ab92d26fcf4c9c2727e25f002883e59dab800f5b2613e2b1bb09d2df4",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "college/the-fafsa",
+      "kind": "added",
+      "hash": "c0557b510b4a911e10c74aa36c6df25486dfa307d18ece251d4ba20d25a46af6",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "credit/building-credit-as-a-teen",
+      "kind": "added",
+      "hash": "da983937cac590409a4a479bdb7e64a4dc7c94a363233563cb53374f9934224a",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "credit/buy-now-pay-later",
+      "kind": "added",
+      "hash": "2be1d43ee6e04cc10785dc935ac68fb6ad7002bc58f86579757d84b23b5c6819",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "credit/car-loans",
+      "kind": "added",
+      "hash": "6341545827e05bb157fcd4a19be5fb78f58466657e268e70842f1c0e1fcfd7f1",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "credit/credit-reports",
+      "kind": "added",
+      "hash": "a6020335db92271a716ed3034bb8b387118ed1b4e6b16bab7488881d09ed71cb",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "credit/credit-scores",
+      "kind": "added",
+      "hash": "ab837303cce7e00cf1a4cff1d98b2709377b83a66bb30886b3e0092a6fd6ab5f",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "credit/how-credit-cards-work",
+      "kind": "added",
+      "hash": "7a8a1ec8df4cedec302dfc6bbd17599bbe0186aadf533cbcc1df4bb4e6a6e47d",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "credit/payday-loans-and-predatory-lending",
+      "kind": "added",
+      "hash": "e22dc1ea549cfef3f7b1aacc67c03042fe0f1779a25e0bdb29e15554b6b6f127",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "credit/the-minimum-payment-trap",
+      "kind": "added",
+      "hash": "98b4add1318dcebd00f3c825899fa3f5d612e4b85c18f86b1e5bc7fbcd681f1e",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "credit/what-is-credit",
+      "kind": "added",
+      "hash": "21352b6f10f6a4d82a1327361096463f694043edab753aa3624b2a8b1501fd49",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/fake-check-scams",
+      "kind": "added",
+      "hash": "3aa5840437ce4fef353661233a02634e8298a702401d05b870989b4a4636ab9e",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/identity-theft-and-credit-freezes",
+      "kind": "added",
+      "hash": "d673fe7a5af6754ed0d05ad1fdc80e52d10ee415ea3d27f1cf6542614957ef07",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/if-you-get-scammed",
+      "kind": "added",
+      "hash": "c457d87a62db86168817d74be0da287808ba0ec7add3a2df30b8855b6908b962",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/investment-and-crypto-scams",
+      "kind": "added",
+      "hash": "a7b8dfd6f7d5c87d7e97eac5ffd082bd5cc978eded129fb23acbcd63cab78b76",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/job-and-gig-scams",
+      "kind": "added",
+      "hash": "e54017c029402abaadbf6b0c1579b8bee72d85e1f1c023a8e492ad31ad98cf49",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/money-mules",
+      "kind": "added",
+      "hash": "15eb441aeb6fb478d6b8a49f22a505cbf64bcd0a2611b4e64d8f5a1171366b5f",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/online-marketplace-and-resale-scams",
+      "kind": "added",
+      "hash": "0c04a7bb793b44dc06b4e7793a74d16063d98e4a523c97645a8f8be1bfb8a053",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/payment-app-scams",
+      "kind": "added",
+      "hash": "9e00d962979a524ff10c122fa00d132e56de92dd747eff916a9c1e6bb3581a7b",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/phishing-texts-and-emails",
+      "kind": "added",
+      "hash": "4f368091ababe57931909389eb8389e2e1ac1f15ab93ef6a89debb003508e9c8",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/sextortion-scams",
+      "kind": "added",
+      "hash": "64139cbb63ffaf2b8d25134f59459f1d6b457334c9969ec6ee930186c56a8f5c",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "fraud/spotting-a-scam",
+      "kind": "added",
+      "hash": "8131b0722a0bcd871937f9761fc8fc3df6302fe32d8c279e7f943a33e96b9794",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "insurance/car-insurance",
+      "kind": "added",
+      "hash": "29d784fdef7adc863bb71c55cd7812ecd06b061a05019452b19a882b78b880e9",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "insurance/extended-warranties-and-add-ons",
+      "kind": "added",
+      "hash": "38b8765ecf898f5f5dddb235d413a698329f9989425ae2092caf82c7e8d3c84b",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "insurance/health-insurance-basics",
+      "kind": "added",
+      "hash": "26110a88ce969f0a2072b6cb821ff4277808c5049bab0c0aecff54d74b468ae3",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "insurance/how-insurance-works",
+      "kind": "added",
+      "hash": "89bd0366753ea48efc57348518792f9b91c2082dcda858f4f99d6fa73dd0041e",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "insurance/renters-insurance",
+      "kind": "added",
+      "hash": "17084357cc2279b6dd301b227b04af85c75f9990e363a30e0f29d350ac9c796c",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "investing/hype-crypto-and-meme-stocks",
+      "kind": "added",
+      "hash": "e8f649680117fb9b0c2ead2dea33e36c1f6636fd34f61f4a5dc62dd6539d99e3",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "investing/index-funds-and-fees",
+      "kind": "added",
+      "hash": "0da6b5c2760b0ccb3aee0299397a196b17c595f2be4cea76a027917e190f50cd",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "investing/retirement-accounts",
+      "kind": "added",
+      "hash": "312c6b7051c8bce53544ae023d41b8e4e72cb1ca9ca1dba944703887f6fe661f",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "investing/risk-and-return",
+      "kind": "added",
+      "hash": "51667f7b8c4d200d2ec692e059fe6550ed254ac493779414d77c2dd0b6e19767",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "investing/roth-ira-for-teens",
+      "kind": "added",
+      "hash": "31cba79fd7cf20995b559b066cda399af44ceaa148f68c7d30cf39cf9a9fcb48",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "investing/saving-and-investing",
+      "kind": "added",
+      "hash": "81bab6ec0ee6ddf6ef9356841aafe10c7fa390f44013e97ad9266e2fd956df37",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "investing/starting-early",
+      "kind": "added",
+      "hash": "76c2e6fb5b9312380068f412e48b23b08fca2aa99341cf9c260a413c28b7975c",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "investing/stocks-bonds-and-funds",
+      "kind": "added",
+      "hash": "dc43851ebc122dc6d39d12042e8e9dfef65077cd5d0704fd4e1cf77ddf562262",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "money-basics/hours-of-work",
+      "kind": "added",
+      "hash": "16288cb9a7cb2ca3655952c5d5fc124eda26c1b77d11ef0d8bbe492618dedc85",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "money-basics/money-and-your-feed",
+      "kind": "added",
+      "hash": "3b8c3fc818b18cd9652b56d65b55d9474cd4f3f6b0795fde0a36732fa8db0927",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "money-basics/needs-and-wants",
+      "kind": "added",
+      "hash": "10cabf5088895b8e3b0ec545521b5754ab0e221218429130994b3ab8a6ebae11",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "money-basics/opportunity-cost",
+      "kind": "added",
+      "hash": "92092f21c95ad9726bf5f3301ff842cb2415c76c5079eb7050a65b432b0a5c2f",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "money-basics/pay-yourself-first",
+      "kind": "added",
+      "hash": "633234f927aebda8f8a619d50730269f85105d2d22b79a26da6fba3d9be91e75",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "money-basics/setting-money-goals",
+      "kind": "added",
+      "hash": "e7c6faaf22a91c0dee8978e5db5d9055fb8aa4505874026f73082d86bf2dd906",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "money-basics/talking-about-money",
+      "kind": "added",
+      "hash": "da0535f3fa4e21f88715517d03d5cae3bf7529c129e80ef6cfd8ebe49d536824",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "saving/apy-and-high-yield-savings",
+      "kind": "added",
+      "hash": "cb54223a6ef633fd309bfadb73684199c2084f5650f56df16a3d0ef533bc64a3",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "saving/cds-and-where-to-keep-savings",
+      "kind": "added",
+      "hash": "5349b2c12ff8b500afb6dd0f083144f6d6adc0f511619d59a553c9c2c56b6990",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "saving/emergency-fund",
+      "kind": "added",
+      "hash": "037e5a3f94619e8bc75e2e618186a72fd7d3cfc5023605cd30093dc7dd4fa7a9",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "saving/how-interest-works",
+      "kind": "added",
+      "hash": "c66e1175ae7e58e34fe48016b4ecc5e373c9f92b4a86bf0910a789256a55f3af",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "saving/saving-for-goals",
+      "kind": "added",
+      "hash": "0e9f2694ee904dae6b25da0285d86b2eb5332553b91d83e7db3d1ef86433b96e",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "saving/why-save",
+      "kind": "added",
+      "hash": "3a8c3de2f3a8c163461ae90885b1181f40db9795ab32e1166fd1901e41e3cd37",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "taxes/do-you-need-to-file",
+      "kind": "added",
+      "hash": "ed037734e651463a732065cfa03dd49d8488611edb2a5baef85cfac6802a4108",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "taxes/filing-your-first-return",
+      "kind": "added",
+      "hash": "2a3a7a1123699aea32fa418deda6f5cbbe5fce9ebab21942dba323c17151583f",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "taxes/how-tax-brackets-work",
+      "kind": "added",
+      "hash": "1707692ae36c618fef37ea7ba07738ef5fc6500986258b1bfd9934c33b1eb196",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "taxes/self-employment-tax",
+      "kind": "added",
+      "hash": "edecab2e6f2cdec836a64748520cd75a6e1abd0a37c7c718a6f4d7ce9541e0d2",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "taxes/the-w4-and-withholding",
+      "kind": "added",
+      "hash": "598099b9ea3bf51ff448b6a9de9b7c11f8e8105660b9722c5e9b420e6d5daee7",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "taxes/why-we-pay-taxes",
+      "kind": "added",
+      "hash": "bb11bd8f13e7ebf47f4181a29846e6d79e81862da29af5d815c536d483e00789",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "turning-18/buying-your-first-car",
+      "kind": "added",
+      "hash": "e4514ab51652b85c1844ac033cd5c337b7cb199eb427656b710bb2c2b8664fc7",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "turning-18/getting-organized",
+      "kind": "added",
+      "hash": "dac463de3684d1711ca3ceea2671f867ac87e7e697c3b65da45317faa7e1b653",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "turning-18/reading-a-contract",
+      "kind": "added",
+      "hash": "54316202d470ce58a70e4083f3a34aa3506136872e1556c487c30996827ba353",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "turning-18/what-changes-at-18",
+      "kind": "added",
+      "hash": "4b47cdc5ada17fd9b0becb48703a6cf6c6f369cafa457550a7ebc872ba6ffde5",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "turning-18/your-rights-as-a-customer",
+      "kind": "added",
+      "hash": "8b7d95f8996c11a20e2bbd707c25efd596105f208b35d74f75cc412e7225db1c",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "work/finding-your-first-job",
+      "kind": "added",
+      "hash": "a311f4c370ec524c49f5546f9c822428a51a56e8e272045328ead89c86f79216",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "work/first-job-paperwork",
+      "kind": "added",
+      "hash": "7509a67e50c72b42812ee63f30cb7cf00e69ea6b0861197eaf22c81a149b7858",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "work/gig-work-and-1099",
+      "kind": "added",
+      "hash": "d20e3b94aee0e20b8dd74a962644a3ee8a76b627470263409567b99bf8019c9b",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "work/job-benefits",
+      "kind": "added",
+      "hash": "ae523ecf5f9acca51be053174b033e5e7e39b33d32fb2b5ddd48399431025915",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "work/minimum-wage-and-teen-work-rules",
+      "kind": "added",
+      "hash": "85ee83b490934743e3fc8c490b1fc4b2e0187335ec55400cae60ad9bafefe57a",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "work/reading-a-pay-stub",
+      "kind": "added",
+      "hash": "45db6c9b26f38fbe650aa7b03e47db82958a95da4fd0bce87ab3372b09348227",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-10-20",
+      "key": "work/tips-and-cash-income",
+      "kind": "added",
+      "hash": "e5b47263462b54cf2dfe59a8cc3c8a09622e528bdea0966a2344052eb4024f92",
+      "rules": "2026",
+      "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    }
+  ]
+}

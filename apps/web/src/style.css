@@ -1,0 +1,998 @@
+/* Page layout. Components bring their own styles; this file arranges them
+   and reads the Foldworks (shadcn) theme variables so themes switch cleanly. */
+
+:root {
+  color-scheme: dark;
+  --bfb-mono:
+    ui-monospace, 'JetBrains Mono', 'SFMono-Regular', Menlo, monospace;
+  --bfb-header-height: 3.5rem;
+  --bfb-panel: oklch(0.19 0.012 160);
+  --bfb-money: oklch(0.72 0.15 155);
+  --bfb-danger: oklch(0.7 0.18 25);
+  --bfb-warning: oklch(0.82 0.14 80);
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, Inter, system-ui, sans-serif);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+.muted {
+  color: var(--muted-foreground);
+}
+
+.brand-mark {
+  display: inline-grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 0.45rem;
+  background: oklch(0.55 0.15 155);
+  color: white;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.header-link {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: var(--foreground);
+}
+
+/* LAYOUT AND SIDEBAR */
+
+.layout {
+  display: grid;
+  grid-template-columns: 17rem minmax(0, 1fr);
+}
+
+.layout-sidebar {
+  position: sticky;
+  top: var(--bfb-header-height);
+  height: calc(100vh - var(--bfb-header-height));
+  overflow-y: auto;
+  border-right: 1px solid var(--border);
+  background: var(--sidebar, var(--card));
+}
+
+.sidebar {
+  padding: 0.75rem 0.6rem 2rem;
+}
+
+.sidebar-filter {
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-filter-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.45rem 3.2rem 0.45rem 0.65rem;
+  border: 1px solid var(--input);
+  border-radius: calc(var(--radius, 0.6rem) - 2px);
+  background: var(--background);
+  color: var(--foreground);
+  font: inherit;
+  font-size: 0.875rem;
+}
+
+.sidebar-filter-input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 1px;
+}
+
+.sidebar-filter-input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.sidebar-shortcut {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  padding: 0.05rem 0.35rem;
+  border: 1px solid var(--border);
+  border-radius: 0.3rem;
+  font-family: var(--bfb-mono);
+  font-size: 0.7rem;
+  color: var(--muted-foreground);
+  pointer-events: none;
+}
+
+.sidebar-topics,
+.sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-topic + .sidebar-topic {
+  margin-top: 0.5rem;
+}
+
+.sidebar-toggle,
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: calc(var(--radius, 0.6rem) - 3px);
+  font-size: 0.875rem;
+  color: var(--foreground);
+  text-decoration: none;
+}
+
+.sidebar-toggle {
+  padding: 0.35rem 0.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+.sidebar-chevron {
+  width: 0.8rem;
+  font-size: 0.7rem;
+}
+
+.sidebar-topic-title {
+  flex: 1;
+  text-align: start;
+}
+
+.sidebar-count {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+
+.sidebar-link {
+  padding: 0.35rem 0.5rem 0.35rem 1.7rem;
+}
+
+.sidebar-link-title {
+  flex: 1;
+}
+
+.sidebar-done {
+  color: var(--bfb-money);
+  font-weight: 700;
+}
+
+.sidebar-toggle:hover,
+.sidebar-link:hover {
+  background: var(--accent);
+}
+
+.sidebar-link-current {
+  background: var(--accent);
+  font-weight: 600;
+}
+
+.sidebar-toggle:focus-visible,
+.sidebar-link:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: -2px;
+}
+
+.sidebar-empty {
+  margin: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--muted-foreground);
+}
+
+/* HOME */
+
+.home {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+.hero {
+  max-width: 46rem;
+  margin-bottom: 3.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.25rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+}
+
+.hero-lede {
+  font-size: 1.15rem;
+  margin: 0 0 0.75rem;
+}
+
+.progress {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 0.6rem);
+  background: var(--card);
+}
+
+.progress-text {
+  flex: 1 1 100%;
+  font-size: 0.95rem;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 0.5rem;
+  accent-color: var(--bfb-money);
+}
+
+.topic {
+  margin-bottom: 3rem;
+  scroll-margin-top: calc(var(--bfb-header-height) + 1rem);
+}
+
+.topic-index {
+  margin: -1.5rem 0 3rem;
+}
+
+.topic-index ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topic-index a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.topic-index a:hover,
+.topic-index a:focus-visible {
+  border-color: var(--ring);
+}
+
+.topic-index-count,
+.topic-progress {
+  color: var(--muted-foreground);
+  font-variant-numeric: tabular-nums;
+}
+
+.topic-progress {
+  font-size: 0.85rem;
+}
+
+.topic-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.topic-heading h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.topic-heading p {
+  margin: 0.25rem 0 1.25rem;
+}
+
+.lesson-grid,
+.planned-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 0.875rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lesson-card,
+.planned-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 0.6rem);
+  background: var(--card);
+  text-decoration: none;
+  transition: border-color 120ms ease;
+}
+
+.lesson-card:hover,
+.lesson-card:focus-visible {
+  border-color: var(--ring);
+}
+
+.lesson-card-done {
+  border-color: color-mix(in oklch, var(--bfb-money) 45%, var(--border));
+}
+
+.planned-card {
+  background: transparent;
+  border-style: dashed;
+}
+
+.lesson-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lesson-card-title {
+  font-weight: 600;
+}
+
+.lesson-card-summary {
+  margin: 0;
+  color: var(--muted-foreground);
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* LESSON */
+
+.lesson,
+.tools-page {
+  padding: 1.5rem 2rem 5rem;
+  max-width: 76rem;
+  min-width: 0;
+}
+
+.lesson-header {
+  margin: 1.25rem 0 1.5rem;
+  max-width: 48rem;
+}
+
+.lesson-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  flex-wrap: wrap;
+}
+
+.lesson-header h1 {
+  font-size: 2.1rem;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+
+.lesson-summary {
+  font-size: 1.05rem;
+  color: var(--muted-foreground);
+  margin: 0.75rem 0 0;
+}
+
+.lesson-history {
+  margin: 0.6rem 0 0;
+  font-size: 0.8rem;
+  color: var(--muted-foreground);
+}
+
+.page-message {
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 0.6rem);
+}
+
+.page-message p {
+  margin: 0;
+}
+
+.segments {
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 0.6rem);
+  overflow: hidden;
+}
+
+.segment {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  border-top: 1px solid var(--border);
+}
+
+.segment:first-child {
+  border-top: none;
+}
+
+.segment-prose-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.segment-prose {
+  padding: 1.1rem 1.4rem;
+  font-size: 1rem;
+  max-width: 44rem;
+}
+
+.segment-prose > :first-child {
+  margin-top: 0;
+}
+
+.segment-prose > :last-child {
+  margin-bottom: 0;
+}
+
+.segment-prose p,
+.prose-list {
+  margin: 0 0 0.85rem;
+}
+
+.prose-list {
+  padding-left: 1.3rem;
+}
+
+.prose-list li + li {
+  margin-top: 0.3rem;
+}
+
+.prose-heading {
+  font-size: 1.2rem;
+  margin: 1.25rem 0 0.6rem;
+}
+
+.segment-prose strong {
+  color: var(--foreground);
+}
+
+.segment-prose a,
+.takeaways a,
+.quiz a {
+  color: var(--bfb-money);
+}
+
+.callout {
+  margin: 0 0 0.85rem;
+  padding: 0.7rem 0.9rem;
+  border-left: 3px solid var(--muted-foreground);
+  border-radius: 0 0.4rem 0.4rem 0;
+  background: var(--muted);
+  font-size: 0.95rem;
+}
+
+.callout p {
+  margin: 0.15rem 0 0;
+}
+
+.callout-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.callout-tip {
+  border-left-color: var(--bfb-money);
+}
+
+.callout-tip .callout-label {
+  color: var(--bfb-money);
+}
+
+.callout-warning {
+  border-left-color: var(--bfb-warning);
+}
+
+.callout-warning .callout-label {
+  color: var(--bfb-warning);
+}
+
+.segment-example {
+  padding: 1.1rem 1.4rem;
+  background: var(--bfb-panel);
+}
+
+/* EXAMPLES */
+
+.example {
+  margin: 0;
+}
+
+.example-title {
+  margin-bottom: 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+.ledger {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.93rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.ledger th,
+.ledger td {
+  padding: 0.45rem 0.8rem;
+  text-align: start;
+  font-weight: 400;
+  vertical-align: top;
+}
+
+.ledger .ledger-value {
+  text-align: end;
+  white-space: nowrap;
+  font-family: var(--bfb-mono);
+  font-size: 0.88rem;
+}
+
+.ledger-row + .ledger-row {
+  border-top: 1px solid color-mix(in oklch, var(--border) 60%, transparent);
+}
+
+.ledger-info th,
+.ledger-info td {
+  color: var(--muted-foreground);
+}
+
+.ledger-subtract .ledger-value {
+  color: var(--bfb-danger);
+}
+
+.ledger-add .ledger-value {
+  color: var(--bfb-money);
+}
+
+.ledger-total {
+  border-top: 2px solid var(--foreground) !important;
+}
+
+.ledger-total th,
+.ledger-total td {
+  font-weight: 700;
+}
+
+.ledger-note td {
+  font-size: 0.8rem;
+  color: var(--muted-foreground);
+  font-style: italic;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.compare {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+}
+
+.compare th,
+.compare td {
+  padding: 0.45rem 0.7rem;
+  text-align: start;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+
+.compare thead th {
+  font-size: 0.8rem;
+  color: var(--muted-foreground);
+  font-weight: 600;
+}
+
+.compare tbody th {
+  font-weight: 600;
+}
+
+.message-card {
+  max-width: 26rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--card);
+  overflow: hidden;
+}
+
+.message-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.82rem;
+}
+
+.message-channel {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+.message-from {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.message-subject {
+  color: var(--muted-foreground);
+}
+
+.message-body {
+  padding: 0.75rem 0.9rem;
+  font-size: 0.92rem;
+}
+
+.message-text .message-body,
+.message-dm .message-body {
+  margin: 0.75rem 0.9rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 1rem 1rem 1rem 0.25rem;
+  background: var(--muted);
+}
+
+.message-body p {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.message-body p + p {
+  margin-top: 0.4rem;
+}
+
+.message-flags {
+  margin-top: 0.85rem;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid color-mix(in oklch, var(--bfb-danger) 50%, var(--border));
+  border-radius: 0.6rem;
+  font-size: 0.88rem;
+}
+
+.message-flags-title {
+  margin: 0 0 0.3rem;
+  font-weight: 700;
+  color: var(--bfb-danger);
+}
+
+.message-flags ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+/* TOOLS */
+
+.lesson-tool {
+  margin-top: 2rem;
+}
+
+.lesson-tool-label {
+  margin: 0 0 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--bfb-money);
+}
+
+.tool {
+  padding: 1.1rem 1.4rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 0.6rem);
+  background: var(--card);
+  scroll-margin-top: calc(var(--bfb-header-height) + 1rem);
+}
+
+.tools-page .tool + .tool {
+  margin-top: 1.25rem;
+}
+
+.tool-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.tool-heading h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.tool > .muted {
+  margin: 0.3rem 0 1rem;
+}
+
+.tool-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.25rem;
+}
+
+.tool-fields {
+  display: grid;
+  gap: 0.75rem;
+  align-content: start;
+}
+
+.tool-field label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.tool-input {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.tool-input input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--input);
+  border-radius: calc(var(--radius, 0.6rem) - 2px);
+  background: var(--background);
+  color: var(--foreground);
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+}
+
+.tool-input input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 1px;
+}
+
+.tool-unit {
+  color: var(--muted-foreground);
+  font-size: 0.85rem;
+}
+
+.tool-note {
+  margin: 0.6rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted-foreground);
+}
+
+/* TAKEAWAYS AND QUIZ */
+
+.takeaways,
+.quiz {
+  margin-top: 2rem;
+  padding: 1.1rem 1.4rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 0.6rem);
+  max-width: 48rem;
+}
+
+.takeaways {
+  border-color: color-mix(in oklch, var(--bfb-money) 45%, var(--border));
+  background: color-mix(in oklch, var(--bfb-money) 7%, transparent);
+}
+
+.takeaways h2,
+.quiz h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.2rem;
+}
+
+.takeaways ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.takeaways li + li {
+  margin-top: 0.3rem;
+}
+
+.quiz-questions {
+  margin: 0;
+  padding-left: 1.3rem;
+}
+
+.quiz-question + .quiz-question {
+  margin-top: 1.25rem;
+}
+
+.quiz-prompt {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.quiz-options {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.quiz-option {
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius, 0.6rem) - 2px);
+  background: var(--card);
+  color: var(--foreground);
+  font: inherit;
+  font-size: 0.95rem;
+  text-align: start;
+  cursor: pointer;
+}
+
+.quiz-option:hover:not(:disabled) {
+  border-color: var(--ring);
+}
+
+.quiz-option:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 1px;
+}
+
+.quiz-option:disabled {
+  cursor: default;
+}
+
+.quiz-option-correct {
+  border-color: var(--bfb-money);
+  background: color-mix(in oklch, var(--bfb-money) 16%, var(--card));
+}
+
+.quiz-option-wrong {
+  border-color: var(--bfb-danger);
+  background: color-mix(in oklch, var(--bfb-danger) 14%, var(--card));
+}
+
+.quiz-option-dimmed {
+  opacity: 0.6;
+}
+
+.quiz-feedback {
+  margin: 0.5rem 0 0;
+  font-size: 0.92rem;
+}
+
+.quiz-feedback-correct strong {
+  color: var(--bfb-money);
+}
+
+.quiz-feedback-wrong strong {
+  color: var(--bfb-danger);
+}
+
+.quiz-score {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.quiz-score p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.done-toggle {
+  margin-top: 1.5rem;
+}
+
+/* PAGER */
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.pager-link {
+  display: flex;
+  flex-direction: column;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 0.6rem);
+  text-decoration: none;
+  min-width: 12rem;
+}
+
+.pager-link:hover,
+.pager-link:focus-visible {
+  border-color: var(--ring);
+}
+
+.pager-next {
+  text-align: end;
+  margin-left: auto;
+}
+
+.pager-label {
+  font-size: 0.8rem;
+  color: var(--muted-foreground);
+}
+
+.pager-title {
+  font-weight: 600;
+}
+
+.not-found {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+@media (max-width: 960px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .layout-sidebar {
+    display: none;
+  }
+
+  .lesson,
+  .tools-page {
+    padding: 1.25rem 1rem 4rem;
+  }
+
+  .segment,
+  .tool-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .pager {
+    flex-direction: column;
+  }
+}
+
+/* Foldworks resets list markers; lessons want them back. */
+ul.prose-list,
+.takeaways ul,
+.message-flags ul {
+  list-style: disc;
+}
+
+ol.prose-list,
+.quiz-questions {
+  list-style: decimal;
+}
