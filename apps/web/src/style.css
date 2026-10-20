@@ -369,10 +369,27 @@ a {
   overflow: hidden;
 }
 
+/* ABOUT */
+
+.about-page > p,
+.about-page > .callout {
+  max-width: 42rem;
+}
+
+.about-page > p {
+  margin: 0 0 1rem;
+  line-height: 1.65;
+}
+
+.about-signature {
+  font-style: italic;
+}
+
 /* LESSON */
 
 .lesson,
-.tools-page {
+.tools-page,
+.about-page {
   padding: 1.5rem 2rem 5rem;
   max-width: 76rem;
   min-width: 0;
@@ -477,7 +494,8 @@ a {
 
 .segment-prose a,
 .takeaways a,
-.quiz a {
+.quiz a,
+.about-page > p a {
   color: var(--bfb-money);
 }
 
@@ -971,7 +989,8 @@ a {
   }
 
   .lesson,
-  .tools-page {
+  .tools-page,
+  .about-page {
     padding: 1.25rem 1rem 4rem;
   }
 

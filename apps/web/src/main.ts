@@ -38,6 +38,7 @@ import {
   summaryKey,
 } from './content.ts'
 import {
+  aboutRouter,
   AppRoute,
   homeRouter,
   lessonRouter,
@@ -470,6 +471,7 @@ const headerView = (h: HtmlBuilder<Message>) =>
       ],
       actions: [
         h.a([h.Class('header-link'), h.Href(toolsRouter())], ['Calculators']),
+        h.a([h.Class('header-link'), h.Href(aboutRouter())], ['About']),
       ],
       sticky: true,
     },
@@ -857,6 +859,67 @@ const toolsView = (model: Model, h: HtmlBuilder<Message>) =>
     ],
   )
 
+// ABOUT
+
+const repositoryUrl = 'https://github.com/bearing-ward/banking-for-beginners'
+
+const externalLink = (href: string, text: string, h: HtmlBuilder<Message>) =>
+  h.a([h.Href(href), h.Target('_blank'), h.Rel('noopener noreferrer')], [text])
+
+const aboutView = (h: HtmlBuilder<Message>) =>
+  h.main(
+    [h.Class('about-page')],
+    [
+      Breadcrumb.view(
+        {
+          ariaLabel: 'Location',
+          items: [{ label: 'Lessons', href: homeRouter() }],
+          current: 'About',
+        },
+        h,
+      ),
+      h.header([h.Class('lesson-header')], [h.h1([], ['About'])]),
+      h.aside(
+        [h.Class('callout callout-warning')],
+        [
+          h.span([h.Class('callout-label')], ['Warning']),
+          h.p([], [h.strong([], ['This is not financial advice!'])]),
+        ],
+      ),
+      h.p(
+        [],
+        [
+          'This was completely ',
+          externalLink(
+            'https://en.wikipedia.org/wiki/Vibe_coding',
+            'vibe coded',
+            h,
+          ),
+          ' to give me and my son a jumping off point for financial literacy conversations. The contents of this page mark the beginning of that conversation and should not in any way be blindly accepted as fact.',
+        ],
+      ),
+      h.p(
+        [],
+        [
+          "While I can't guarantee this will be useful for anyone, my hope is that it can at the very least ",
+          h.a([h.Href(homeRouter())], ['point you in the right direction']),
+          '.',
+        ],
+      ),
+      h.p(
+        [],
+        [
+          'Feedback? Issues? Feel free to ',
+          externalLink(`${repositoryUrl}/issues/new`, 'file an issue', h),
+          ' on the ',
+          externalLink(repositoryUrl, 'GitHub page', h),
+          '.',
+        ],
+      ),
+      h.p([h.Class('about-signature')], ['John']),
+    ],
+  )
+
 // LESSON
 
 const segmentView = (segment: Segment, h: HtmlBuilder<Message>) =>
@@ -1235,6 +1298,7 @@ const pageTitle = (route: AppRoute) =>
   AppRoute.match(route, {
     Home: () => siteName,
     Tools: () => `Calculators · ${siteName}`,
+    About: () => `About · ${siteName}`,
     Lesson: ({ topic, slug }) =>
       Option.match(findLesson(topic, slug), {
         onNone: () => `Not found · ${siteName}`,
@@ -1247,6 +1311,7 @@ const pageView = (model: Model, h: HtmlBuilder<Message>): Html =>
   AppRoute.match(model.route, {
     Home: () => homeView(model, h),
     Tools: () => toolsView(model, h),
+    About: () => aboutView(h),
     Lesson: ({ topic, slug }) =>
       Option.match(findLesson(topic, slug), {
         onNone: () => notFoundView(`/${topic}/${slug}`, h),

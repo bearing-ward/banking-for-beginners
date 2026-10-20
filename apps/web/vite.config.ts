@@ -44,6 +44,7 @@ const pagesFallbacks: Plugin = {
     const pages = [
       '404.html',
       'tools.html',
+      'about.html',
       ...topics.flatMap((topic) =>
         topic.slugs.map((slug) => `${lessonKey(topic.id, slug)}.html`),
       ),

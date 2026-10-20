@@ -65,6 +65,17 @@ export async function verifyPages(): Promise<void> {
       page.getByRole('heading', { level: 1, name: 'Calculators' }),
     ).toBeVisible()
 
+    const about = await page.goto(`${url}/about`)
+    expect(about?.status()).toBe(200)
+    await expect(page).toHaveTitle('About · Banking for Beginners')
+    await expect(page.getByText('This is not financial advice!')).toBeVisible()
+    await expect(
+      page.getByRole('link', { name: 'file an issue' }),
+    ).toHaveAttribute(
+      'href',
+      'https://github.com/bearing-ward/banking-for-beginners/issues/new',
+    )
+
     const missing = await page.goto(`${url}/no/such-page`)
     expect(missing?.status()).toBe(404)
     await expect(page).toHaveTitle('Not found · Banking for Beginners')

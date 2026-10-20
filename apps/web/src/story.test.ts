@@ -116,6 +116,21 @@ test('calculator fields keep what the reader typed until reset', () => {
   )
 })
 
+test('the about page has its own route', () => {
+  const url = Option.getOrThrow(Url.fromString('https://example.test/about'))
+  story(
+    update,
+    given(onLesson('reading-a-pay-stub')),
+    message(Message.ChangedUrl({ url })),
+    Command.expectExact(ScrollToTop()),
+    model((value) => {
+      expect(value.route).toEqual(AppRoute.About())
+      expect(value.page).toEqual(PageState.None())
+    }),
+    Command.resolve(ScrollToTop, Message.CompletedScrollToTop()),
+  )
+})
+
 test('changing lessons clears quiz answers, scrolls up, and loads the page', () => {
   const url = Option.getOrThrow(
     Url.fromString('https://example.test/work/first-job-paperwork'),

@@ -6,6 +6,7 @@ import type { Url } from 'foldkit/url'
 export const AppRoute = defineRouteUnion({
   Home: {},
   Tools: {},
+  About: {},
   Lesson: { topic: Schema.String, slug: Schema.String },
   NotFound: { path: Schema.String },
 })
@@ -20,6 +21,8 @@ const homeRoute = pipe(Route.root, Route.mapTo(AppRoute.Home))
 
 const toolsRoute = pipe(literal('tools'), Route.mapTo(AppRoute.Tools))
 
+const aboutRoute = pipe(literal('about'), Route.mapTo(AppRoute.About))
+
 const lessonRoute = pipe(
   string('topic'),
   slash(string('slug')),
@@ -30,12 +33,14 @@ export const homeRouter = () => `${base}${homeRoute()}`
 
 export const toolsRouter = () => `${base}${toolsRoute()}`
 
+export const aboutRouter = () => `${base}${aboutRoute()}`
+
 export const lessonRouter = (
   params: Parameters<typeof lessonRoute>[0],
 ): string => `${base}${lessonRoute(params)}`
 
 const parseRoute = Route.parseUrlWithFallback(
-  Route.oneOf(lessonRoute, toolsRoute, homeRoute),
+  Route.oneOf(lessonRoute, toolsRoute, aboutRoute, homeRoute),
   AppRoute.NotFound,
 )
 
