@@ -422,6 +422,8 @@ export const subscriptions = Subscription.make<Model, Message>()(() => ({
 
 // VIEW
 
+const repositoryUrl = 'https://github.com/bearing-ward/banking-for-beginners'
+
 const lessonHref = (lesson: LessonSummary) =>
   lessonRouter({ topic: lesson.topic, slug: lesson.slug })
 
@@ -472,6 +474,16 @@ const headerView = (h: HtmlBuilder<Message>) =>
       actions: [
         h.a([h.Class('header-link'), h.Href(toolsRouter())], ['Calculators']),
         h.a([h.Class('header-link'), h.Href(aboutRouter())], ['About']),
+        h.a(
+          [
+            h.Class('header-link'),
+            h.Href(`${repositoryUrl}/issues`),
+            h.Target('_blank'),
+            h.Rel('noopener noreferrer'),
+            h.Title('Leave an issue or comment on GitHub'),
+          ],
+          ['GitHub'],
+        ),
       ],
       sticky: true,
     },
@@ -860,8 +872,6 @@ const toolsView = (model: Model, h: HtmlBuilder<Message>) =>
   )
 
 // ABOUT
-
-const repositoryUrl = 'https://github.com/bearing-ward/banking-for-beginners'
 
 const externalLink = (href: string, text: string, h: HtmlBuilder<Message>) =>
   h.a([h.Href(href), h.Target('_blank'), h.Rel('noopener noreferrer')], [text])
