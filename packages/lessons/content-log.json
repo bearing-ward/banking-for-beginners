@@ -815,6 +815,126 @@
       "hash": "695674a76fd3b8a57b7685fa6a9584f20e3de4b76293412cc2108069065cfa82",
       "rules": "2026",
       "note": "Add Personal digital security topic: passwords and passkeys, MFA and recovery, devices, privacy, connections, and compromised accounts"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "business/business-plan-challenge",
+      "kind": "added",
+      "hash": "f6fb2113fd9b7afcca6724f0f8123cca2ca0a66853a19127ae694f4dc75e60e6",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "business/finding-and-keeping-customers",
+      "kind": "added",
+      "hash": "924c40224d9b860ab954e9b3ddbe816d92d41735c703bfe879594d71247f0d01",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "business/growing-or-stopping",
+      "kind": "added",
+      "hash": "3f1950f91065c28740d849c639a80d7a5297c3cb62c0b62975c30fba9bcdb95c",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "business/partners-and-hiring",
+      "kind": "added",
+      "hash": "5b164b10c4bd8f172bbb8eaa215b51a25588eb9de255f1029ede01550fa68f13",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "business/revenue-profit-and-cash-flow",
+      "kind": "added",
+      "hash": "aba46965dcdde4a10bc9204ff13986626129a84eaa0ff0c6992ac8df78f613cc",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "business/setting-up-a-business",
+      "kind": "added",
+      "hash": "527a98c8a8424a8cf78605a6b7573921df7196d52883c42c057686163511a9f9",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "business/startup-costs-and-break-even",
+      "kind": "added",
+      "hash": "92a4be13c9a89da4ada04a580dba23d9b15b5d4fcee047933801a4fe7a196deb",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "business/testing-a-business-idea",
+      "kind": "added",
+      "hash": "e8b6089d831247f0c30b01a830e93d25e4755871a400d6f44ed6a728330ff4d7",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "freelancing/clear-client-agreements",
+      "kind": "added",
+      "hash": "5d84c754b7ac4d8afb33413637bc90767f915e5fa36c92c84fe3774a8feb4e25",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "freelancing/employee-or-contractor",
+      "kind": "added",
+      "hash": "fb2c053d48c4c5fcff4578ccea0aba9e185bdaf913c49536fc576e321b570b94",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "freelancing/estimates-invoices-and-payment",
+      "kind": "added",
+      "hash": "9dcfb25efee7e36a32d03b27a15ec824dea7e9087243788546db680802390969",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "freelancing/managing-uneven-income",
+      "kind": "added",
+      "hash": "693213fcd9a119dbaf22c02c3ecbe74d1ac5a41b24c6675474ce401a29d23e55",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "freelancing/pricing-your-work",
+      "kind": "added",
+      "hash": "f8aa60e311d26a175700073c3252d4ec02f9917b0a85e53a7f1a28fcaac74a56",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "freelancing/project-challenge",
+      "kind": "added",
+      "hash": "38a5f3734ba355c9164dced7c46adbc16b1fcd6a090da731f2c8b394298a027e",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "work/gig-work-and-1099",
+      "kind": "modified",
+      "hash": "14e3e6089da758bf785953953faa6134dbf2feede18c7750fd62946b7919e45a",
+      "rules": "2026",
+      "note": "Add freelancing and business topics with pricing, agreements, invoicing, cash flow, launch and growth decisions, and two practice challenges; correct gig worker classification and tax timing"
     }
   ]
 }

@@ -66,6 +66,24 @@ export async function verifyPages(): Promise<void> {
     await expect(page.getByRole('main')).toContainText('passkey')
     await expect(page.locator('.quiz-question').first()).toBeVisible()
 
+    for (const { path, heading } of [
+      {
+        path: 'freelancing/project-challenge',
+        heading: 'Challenge your freelance project plan',
+      },
+      {
+        path: 'business/business-plan-challenge',
+        heading: 'Challenge your small-business plan',
+      },
+    ]) {
+      const lesson = await page.goto(`${url}/${path}`)
+      expect(lesson?.status()).toBe(200)
+      await expect(
+        page.getByRole('heading', { level: 1, name: heading }),
+      ).toBeVisible()
+      await expect(page.locator('.quiz-question').first()).toBeVisible()
+    }
+
     const tools = await page.goto(`${url}/tools`)
     expect(tools?.status()).toBe(200)
     await expect(

@@ -218,6 +218,34 @@ export const topics: ReadonlyArray<Topic> = [
       'getting-organized',
     ],
   ),
+  topic(
+    'freelancing',
+    'Freelancing and contract work',
+    'Price a job, agree on the work, get paid, and plan for uneven income.',
+    [
+      'employee-or-contractor',
+      'pricing-your-work',
+      'clear-client-agreements',
+      'estimates-invoices-and-payment',
+      'managing-uneven-income',
+      'project-challenge',
+    ],
+  ),
+  topic(
+    'business',
+    'Starting and building a business',
+    'Test demand, understand profit and cash, and make informed choices about starting, growing, or stopping.',
+    [
+      'testing-a-business-idea',
+      'revenue-profit-and-cash-flow',
+      'startup-costs-and-break-even',
+      'finding-and-keeping-customers',
+      'setting-up-a-business',
+      'partners-and-hiring',
+      'growing-or-stopping',
+      'business-plan-challenge',
+    ],
+  ),
 ]
 
 export const lessonKey = (topic: string, slug: string) => `${topic}/${slug}`

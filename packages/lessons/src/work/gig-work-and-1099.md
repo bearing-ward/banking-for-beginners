@@ -1,25 +1,26 @@
 ---
 title: Gig work and the 1099
 level: next-step
-summary: Employee or independent contractor? Why delivery apps and side gigs pay you the full amount, and why you need to set some of it aside for taxes.
+summary: How taxes work when you are self-employed, why a 1099 does not decide your worker status, and what to track as you get paid.
 ---
 
-Marcus is 18 and delivers food on weekends through an app. His friend Tess works at a grocery store. They both earned $240 last week. Tess's deposit was smaller, and Marcus felt like he came out ahead. He did not, yet. Nobody took taxes out of his pay, so he will owe them later.
+Marcus is 18 and does weekend delivery work. In this example, he is correctly treated as self-employed. Using an app alone does not decide that status. His friend Tess works at a grocery store. They both earned $240 last week. Tess's deposit was smaller, and Marcus felt like he came out ahead. He did not, yet. No taxes were withheld from his pay, so he needs to plan for tax payments himself.
 
 ## Employee or contractor
 
-An **employee** works for a business that sets the schedule, trains them, and runs payroll. The employer withholds taxes from every paycheck and sends a **Form W-2** after the year ends.
+An **employee** works in an employment relationship. Employers generally withhold federal income, Social Security, and Medicare taxes and report wages on **Form W-2**. An **independent contractor** is in business for themselves and generally handles their own taxes. A payer may report contractor payments on **Form 1099-NEC** or another information form.
 
-An **independent contractor** is in business for themselves, even if the business is one person with a phone. Delivery and rideshare drivers, freelance designers, and the neighbor kid who mows lawns are usually contractors. Nobody withholds taxes from their pay. The company may send a **Form 1099-NEC**, which reports what it paid you, or it may send nothing. Either way, every dollar is income.
+A 1099 or a contract saying "contractor" does not decide whether the classification is correct. Neither does a flexible schedule, job title, or platform. The IRS considers control and independence for federal employment taxes. Federal wage law and state laws can use different tests. Read the [IRS classification guide](https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee) and the [Department of Labor's misclassification guide](https://www.dol.gov/agencies/whd/flsa/misclassification), and ask your state labor office about state protections.
 
-```table W-2 job or 1099 gig?
-| | Employee (W-2) | Contractor (1099) |
-| Who sets your hours | Your employer | You |
-| Taxes taken out of pay | Yes | No |
-| Social Security and Medicare | You pay half, your employer pays half | You pay both halves |
-| Tax form after the year | Form W-2 | Form 1099-NEC, or none |
-| Minimum wage and overtime rules | Apply | Do not apply |
+```table General tax treatment, once status is correctly determined
+| | Employee | Independent contractor |
+| Federal taxes withheld | Generally yes | Generally no |
+| Social Security and Medicare | Worker and employer generally share the cost | Worker generally pays self-employment tax |
+| Year-end reporting | Usually Form W-2 | May receive a 1099 or no form |
+| Wage protections | Coverage and exemptions depend on the law | Not covered as an employee by FLSA minimum wage and overtime; other laws may provide protections |
 ```
+
+If your label does not match how the work happens, keep hours, instructions, agreements, and payment records and ask for help. The freelancing classification lesson explains which agency handles which questions. Do not assume a contractor label removes every legal protection.
 
 ## Nobody withholds, so you pay both halves
 
@@ -43,7 +44,7 @@ Self-employment tax, 15.3% of $221.64 | $33.91
 
 ## Set money aside every time you get paid
 
-Because nothing is withheld, the safest habit is to move a slice of every payout into a separate savings account the day it arrives. Then the money is there when you file. If your gig income grows, the IRS may expect you to pay during the year in four **estimated tax** payments instead of all at once.
+Because nothing is withheld, the safest habit is to move a slice of every payout into a separate savings account the day it arrives. That savings balance is for tax payments, not extra spending money. Federal tax is paid as income is earned. Depending on your situation, you may need **estimated tax** payments during the year rather than waiting to file. If you also have an employee job, adjusting withholding may be another option. Check the [IRS estimated-tax guidance](https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes); state payment rules may apply too.
 
 ## Track your expenses
 
@@ -52,18 +53,18 @@ You pay self-employment tax on **net earnings**, which is what you made minus th
 > [!note] Once your net earnings from self-employment reach $400 in a year, you must file a federal tax return, even if you are a dependent and owe no income tax. The tax lessons show how.
 
 ```takeaways
-- Employees get a W-2 and have taxes withheld; contractors may get a 1099-NEC and have nothing withheld.
+- A 1099 does not decide worker status. Correctly classified contractors generally handle their own taxes.
 - Contractors pay both halves of Social Security and Medicare through self-employment tax.
-- Move part of every gig payout into savings so the tax money is there when you file.
+- Set aside money as you are paid and check whether estimated payments are due during the year.
 - Track expenses and miles; you are taxed on net earnings.
 ```
 
 ```quiz
-? Marcus delivers food through an app as a contractor. Who takes taxes out of his pay?
-- The app
-- His bank
-+ Nobody; he pays them when he files
-> Contractors get paid the full amount. Setting money aside is up to them.
+? Marcus is correctly treated as a contractor, and no taxes are withheld. What should he do as he gets paid?
+- Wait until filing time to think about taxes
+- Assume the app already paid all his taxes
++ Set aside tax money and check whether payments are due during the year
+> Contractors generally handle their own taxes. Estimated payments may be required before the annual return is due; saving money alone is not making a tax payment.
 
 ? Why does a contractor pay more Social Security and Medicare than an employee on the same pay?
 + A contractor pays both the employee and the employer halves

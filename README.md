@@ -14,7 +14,7 @@ Built on the cafe stack (Cloudflare, Alchemy, Foldkit, Effect) with [Foldworks](
 
 ## What's here
 
-99 lessons in 13 topics:
+113 lessons in 15 topics:
 
 - **Money basics** (7): Needs and wants, trade-offs, goals, and the habits everything else builds on.
 - **Banking** (8): Checking and savings accounts, debit cards, statements, fees, and keeping your money safe.
@@ -29,8 +29,12 @@ Built on the cafe stack (Cloudflare, Alchemy, Foldkit, Effect) with [Foldworks](
 - **Insurance** (5): How insurance works, and the policies you will meet first: car, health, and renters.
 - **Paying for college** (6): What school really costs, the FAFSA, free money, and student loans.
 - **Turning 18** (5): What changes when you become a legal adult: contracts, cars, and your rights as a customer.
+- **Freelancing and contract work** (6): Worker classification, pricing, agreements, invoices, uneven income, and a project challenge.
+- **Starting and building a business** (8): Demand, profit and cash flow, startup costs, customers, setup, partners and hiring, growth decisions, and a business-plan challenge.
 
 Practice challenges combine a first paycheck, an apartment plan, and an unexpected bill. Each asks you to decide before showing the worked answer.
+
+Freelancing and business lessons include challenges to quote a client project and test a small business with a limited cash budget.
 
 Seven calculators, on lesson pages and together at `/tools`: paycheck estimator, compound growth, 50/30/20 budget, credit card payoff, emergency fund planner, loan calculator, and price in hours of work.
 
