@@ -767,6 +767,54 @@
       "hash": "d6a0818875a3361066c042ed38f27e881187a0ca9e6083ae35cd0ed0c66499a7",
       "rules": "2026",
       "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "digital-security/mfa-and-recovery",
+      "kind": "added",
+      "hash": "5e633db04b29c9559985df0ed4ccff87e1bb7a9287e656d897f4ea73f35b5d6b",
+      "rules": "2026",
+      "note": "Add Personal digital security topic: passwords and passkeys, MFA and recovery, devices, privacy, connections, and compromised accounts"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "digital-security/passwords-and-passkeys",
+      "kind": "added",
+      "hash": "8d17699429d615d34a8b43672885e1cf715ba75ee6ce0361fcb9a600613226ed",
+      "rules": "2026",
+      "note": "Add Personal digital security topic: passwords and passkeys, MFA and recovery, devices, privacy, connections, and compromised accounts"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "digital-security/privacy-and-sharing",
+      "kind": "added",
+      "hash": "1cc638b0dc44b5f4b05fcde8753ee31c3b2d99589df55f17cd41333030177196",
+      "rules": "2026",
+      "note": "Add Personal digital security topic: passwords and passkeys, MFA and recovery, devices, privacy, connections, and compromised accounts"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "digital-security/recovering-a-compromised-account",
+      "kind": "added",
+      "hash": "99c183662e8a316028a91bff08033eba7f54caca4d78f16de9a3a48771025bc7",
+      "rules": "2026",
+      "note": "Add Personal digital security topic: passwords and passkeys, MFA and recovery, devices, privacy, connections, and compromised accounts"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "digital-security/safer-connections",
+      "kind": "added",
+      "hash": "617fe9250911298db0531de2d08c961c6083c3d3ac6497f6544b2ce9a109430f",
+      "rules": "2026",
+      "note": "Add Personal digital security topic: passwords and passkeys, MFA and recovery, devices, privacy, connections, and compromised accounts"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "digital-security/securing-your-devices",
+      "kind": "added",
+      "hash": "695674a76fd3b8a57b7685fa6a9584f20e3de4b76293412cc2108069065cfa82",
+      "rules": "2026",
+      "note": "Add Personal digital security topic: passwords and passkeys, MFA and recovery, devices, privacy, connections, and compromised accounts"
     }
   ]
 }

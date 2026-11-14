@@ -59,6 +59,13 @@ export async function verifyPages(): Promise<void> {
       page.getByRole('heading', { level: 1, name: 'Banking for Beginners' }),
     ).toBeVisible()
 
+    const security = await page.goto(
+      `${url}/digital-security/passwords-and-passkeys`,
+    )
+    expect(security?.status()).toBe(200)
+    await expect(page.getByRole('main')).toContainText('passkey')
+    await expect(page.locator('.quiz-question').first()).toBeVisible()
+
     const tools = await page.goto(`${url}/tools`)
     expect(tools?.status()).toBe(200)
     await expect(

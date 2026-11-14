@@ -169,6 +169,19 @@ export const topics: ReadonlyArray<Topic> = [
     ],
   ),
   topic(
+    'digital-security',
+    'Personal digital security',
+    'Protect your accounts, devices, and personal information, and know what to do if something goes wrong.',
+    [
+      'passwords-and-passkeys',
+      'mfa-and-recovery',
+      'securing-your-devices',
+      'privacy-and-sharing',
+      'safer-connections',
+      'recovering-a-compromised-account',
+    ],
+  ),
+  topic(
     'insurance',
     'Insurance',
     'How insurance works, and the policies you will meet first: car, health, and renters.',
