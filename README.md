@@ -2,6 +2,8 @@
 
 # Banking for Beginners
 
+[Visit the live site](https://bearing-ward.github.io/banking-for-beginners/).
+
 Short money lessons for teenagers who are about to handle it on their own: a first job, a first bank account, a first tax return, a first credit card, a first lease. Each page is one idea. Notes are on the left and a worked example is on the right: a pay stub, a budget, a scam text with its red flags marked. Many pages have a **Try it** calculator, and every page ends with a short quiz. Progress is saved in the browser.
 
 Every worked example is checked by the build: a ledger whose rows do not add up to its totals fails the tests. Dollar figures that change yearly come from one file, `packages/lessons/src/rules.ts` (currently 2026 US figures), and each page shows the date it was last checked against them.
