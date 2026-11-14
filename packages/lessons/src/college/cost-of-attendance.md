@@ -4,7 +4,7 @@ level: starter
 summary: The price on a college's website is rarely what you pay. Learn the difference between sticker price and net price, and how to find yours before you apply.
 ---
 
-Priya is a junior looking at colleges. One school lists a price of $32,000 a year, and she almost crosses it off her list. But that number is the **sticker price**, and most students do not pay it. What matters is the **net price**: what you pay after grants and scholarships, the free money you never pay back.
+All prices and offers below are hypothetical. Priya is a junior looking at colleges. One school lists a price of $32,000 a year, and she almost crosses it off her list. But that number is the **sticker price**, and most students do not pay it. What matters is the **net price**: what you pay after grants and scholarships, aid that generally does not need repayment. Check the conditions, including what happens if you leave school.
 
 ## Cost of attendance
 
@@ -18,7 +18,7 @@ Tuition and fees | $18,000.00
 = Cost of attendance | $32,000.00
 ```
 
-Housing, food, and personal costs depend on how you live. If you live at home, those numbers drop, but you still have costs such as gas and meals.
+Housing, food, and personal costs depend on how you live. Living at home may lower them, but you still need to budget for costs such as gas and meals.
 
 ## Net price
 
@@ -38,16 +38,27 @@ Her net price is less than half the sticker price. She can cover it with savings
 
 Private colleges often have higher sticker prices but also give more of their own grants. A school that looks expensive can end up cheaper than one that looks affordable.
 
-```table Comparing two schools for one year
+These fictional offers cover the same school year and include housing, food, books, and travel. Read the aid lines separately rather than comparing one large "total aid" number.
+
+```table Priya's hypothetical aid offers for one year
 | | School A | School B |
-| Sticker price | $32,000 | $26,000 |
-| Grants and scholarships | $16,500 | $6,000 |
-| Net price | $15,500 | $20,000 |
+| Cost of attendance | $32,000 | $26,000 |
+| Grants and scholarships, generally not repaid | $16,500 | $6,000 |
+| Net price, cost minus grants and scholarships | $15,500 | $20,000 |
+| Student loan offered, must be repaid | $3,000 | $4,000 |
+| Work-study offered, must be earned | $2,000 | $3,000 |
+| Still to fund if loan accepted and all work-study earned | $10,500 | $13,000 |
 ```
+
+School A has the higher sticker price but the lower net price. At A, $15,500 minus $3,000 borrowed minus $2,000 earned leaves $10,500 to fund another way. The loan and wages help cover the cost; they do not lower it. The student still owes the loan, plus applicable interest.
+
+**Work-study** is paid work, not money available when the offer arrives. You need to find a job and work the hours; the full award is not guaranteed. Do not count it as cash for a bill due before you start working. See [Federal Student Aid's guide to evaluating offers](https://studentaid.gov/articles/evaluating-financial-aid-offers/).
+
+Ask both schools whether each grant renews, what grades or enrollment it requires, and whether costs or awards change in later years. Compare the amount and timing you must cover before accepting.
 
 ## Find your number before you apply
 
-Every college that takes part in federal student aid must have a **net price calculator** on its website. You enter information about your family's income, and it estimates what you would pay. It takes about 15 minutes, and a parent can help with the income questions.
+Every college that takes part in federal student aid must have a **net price calculator** on its website. You enter information about your family's income, and it estimates what you would pay. A parent can help with the income questions. The estimate is not a final aid offer.
 
 You can also compare average net prices, graduation rates, and graduates' earnings at the U.S. Department of Education's [College Scorecard](https://collegescorecard.ed.gov). Look at a few schools you think you cannot afford. You might be surprised.
 
@@ -73,9 +84,9 @@ You can also compare average net prices, graduation rates, and graduates' earnin
 - Loans only pay for books
 > Net price counts only money you never repay. A loan moves the cost to later and adds interest.
 
-? Where can you get an estimate of your own net price at a specific college?
-- Only after you enroll
-- From the sticker price on the brochure
-+ The college's net price calculator
-> Colleges that take part in federal aid must post a net price calculator on their website.
+? School B offers $3,000 in work-study. How should Priya treat it?
+- As a guaranteed discount from the $20,000 net price
+- As cash she receives before school starts
++ As potential wages she must find a job and work to earn
+> The net price remains $20,000. Work-study can help pay it over time, but a job and the full earnings are not guaranteed.
 ```

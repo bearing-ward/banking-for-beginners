@@ -5,7 +5,7 @@ summary: What every line on a pay stub means, and why your paycheck is smaller t
 tool: paycheck
 ---
 
-Maya finished her first two weeks as a lifeguard. She worked 20 hours at $15.00 an hour, so she expected $300. Her deposit was $277.05. Nothing went wrong: the difference is on her **pay stub**, the record that comes with every paycheck.
+Maya finished her first two weeks as a lifeguard. She worked 20 hours at $15.00 an hour, so she expected $300. Her deposit was $277.05. Nothing went wrong: the difference is on her **pay stub**, a record of earnings and deductions. Many employers provide one; state requirements vary.
 
 A pay stub has three parts: what you earned, what was taken out, and what you actually got.
 
@@ -41,7 +41,7 @@ Social Security, 6.2% of $300 | $18.60
 
 ## Income tax withholding
 
-Your employer also sets aside **federal income tax** based on the W-4 form you filled out when you were hired. In 2026, a single person owes no federal income tax on the first $16,100 they earn in the year, which is the **standard deduction**. Maya's summer job will not reach that, so her employer withheld nothing.
+Your employer also sets aside **federal income tax** based on your pay and the W-4 form you filled out when you were hired. In 2026, the standard deduction for a single filer is $16,100; special rules apply if someone can claim you as a dependent. The standard deduction reduces taxable income, but earning less than it does not automatically stop withholding. In this example, Maya's W-4 and payroll calculation result in no federal income tax withheld. Check the [IRS guide for students and seasonal workers](https://www.irs.gov/individuals/students-and-seasonal-workers) before claiming an exemption on a W-4. You must meet its conditions.
 
 Some states have their own income tax and some do not. If yours does, you will see a state line too, and sometimes a local one.
 
@@ -59,13 +59,36 @@ Most stubs also show a **year-to-date** (YTD) column: the running total since Ja
 
 ## Check every stub
 
-Payroll mistakes happen. Each time you get paid, check that your hours and rate are right, and that your name and the last four digits of your Social Security number are correct. If something looks wrong, ask your manager or payroll right away. Keep your stubs, or screenshots of them, until you have filed that year's taxes.
+Payroll mistakes happen. Check the pay period first, then compare the hours and rate on the stub with your own daily time record. Record when you start and finish, meal breaks, and the dates and amounts you are paid. A work schedule shows planned shifts; your record should show the time you actually worked. Keep your records and copies of stubs somewhere you can access outside work.
+
+Suppose Maya's next stub lists 18 hours, but her record for that same pay period shows 20 paid hours. The rate is still $15.00. Compare gross pay before deductions, since taxes also change when gross pay changes.
+
+```ledger A missing-hours check
+~ Personal time record | 20 paid hours × $15.00
+Expected gross pay | $300.00
+- Gross pay shown, 18 hours × $15.00 | $270.00
+= Gross pay difference to ask about | $30.00
+# The missing net deposit will not necessarily be $30 because deductions may change.
+```
+
+Ask payroll or your manager for a correction in writing, with dates and copies of records. Ask when you will receive an answer and, if an error is confirmed, corrected pay and a corrected stub. Check the correction when it arrives.
+
+```message Maya's correction request
+Channel: email
+From: Maya
+Subject: Hours on my latest pay stub
+My stub for the November 1 through November 14 pay period lists 18 hours. My attached daily time record shows 20 paid hours at $15 per hour, including my November 6 shift. That is a $30 difference in gross pay. Could you compare the time records and let me know when I can expect an answer and any correction?
+```
+
+If the problem is not resolved, you can contact the [Department of Labor's Wage and Hour Division](https://www.dol.gov/agencies/whd/faq/workers) to ask about federal minimum wage, overtime, recordkeeping, or child labor protections. Its services are free. You do not need to finish an internal complaint process before asking for help. Have your employer's name and address, job duties, hours, pay records, and messages ready.
+
+Federal law does not cover every dispute over promised pay above federal requirements. For a missing-hours or promised-rate issue like Maya's, also check your [state labor office](https://www.dol.gov/agencies/whd/state/contacts), which may enforce state wage-payment laws. Ask which office handles your issue. Report threats or punishment for raising protected wage concerns to the appropriate labor agency promptly. Keep records of what happened.
 
 ```takeaways
 - Gross pay is what you earned; net pay is what you get. Budget with net pay.
 - Social Security (6.2%) and Medicare (1.45%) come out of every paycheck.
 - Federal income tax withholding depends on your W-4; small earners often owe none.
-- Check your hours, rate, and year-to-date totals on every stub.
+- Compare each stub with your time record. Request corrections in writing and seek labor-agency help if needed.
 ```
 
 ```quiz
@@ -81,9 +104,9 @@ Payroll mistakes happen. Each time you get paid, check that your hours and rate 
 + Social Security and Medicare
 > FICA (Social Security and Medicare) applies from the first dollar. Income tax may be zero for small earners.
 
-? Your deposit is lower than you expected. What should you check first?
-+ Your pay stub: hours, rate, and deductions
-- Your credit score
-- Nothing; paychecks are always right
-> The stub shows exactly how your gross pay became net pay, so mistakes in hours or rate show up there.
+? Your record shows 20 paid hours at $15, but the same period's stub shows 18 hours. What should you do?
+- Demand $30 in net pay without checking deductions
+- Delete your time record and accept the stub
++ Send payroll the records, explain the $30 gross difference, and ask when it will be checked and corrected
+> Compare the same pay period and gross amounts, keep copies, and check the correction. If the issue remains unresolved, ask a labor agency which protections apply.
 ```

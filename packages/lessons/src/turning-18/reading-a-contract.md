@@ -4,7 +4,7 @@ level: next-step
 summary: Phone plans, leases, and gym memberships all come with fine print. Find the total cost, the length, the auto-renewal, and how to get out before you sign.
 ---
 
-Once you are 18, the contracts you sign are binding. A **contract** is any agreement the law will enforce, and you agree to most of them with a signature or a checkbox. Phone plans, apartment leases, gym memberships, streaming subscriptions, and car loans are all contracts.
+At your state's age of legal adulthood, you can generally sign binding contracts. That age is usually 18; check your state's rules. A **contract** is any agreement the law will enforce, and you agree to most of them with a signature or a checkbox. Phone plans, apartment leases, gym memberships, streaming subscriptions, and car loans are all contracts.
 
 You do not need to understand every word. You do need to find five things before you sign.
 
@@ -50,21 +50,37 @@ Phone price, paid over 36 months at $30.00 | $1,080.00
 
 An apartment **lease** usually runs for a year. If you move out early, you can still owe rent for the rest of the term. Before you sign, check the move-in costs (often a security deposit plus the first month's rent), who pays for utilities, and the rules for getting your deposit back. Take photos of the apartment on move-in day. Tenant rights depend on your state, so look up your state's tenant guide.
 
+## When a friend asks you to cosign
+
+A **cosigner** promises to repay someone else's debt. In this hypothetical example, Luis, 18, cosigns a friend's loan. His friend stops paying, and the lender demands the remaining balance under the contract.
+
+```ledger Luis's hypothetical bill as a cosigner
+Remaining loan balance | $2,400.00
++ Late fees allowed by the contract | $60.00
+= Amount demanded from Luis | $2,460.00
+~ Luis's savings | $800.00
+~ Shortfall after using all savings | $1,660.00
+```
+
+Luis thought he was helping with an application. Now he owes more than his savings, even though he never used the borrowed money. Cosigning does not give him ownership of anything bought with the loan. Missed payments can appear on his credit report, too.
+
+Depending on state law, a lender may collect from a cosigner before trying the main borrower. Before signing, ask what the full obligation could be, how you would learn about missed payments, and whether release is possible. A friend's promise to pay does not release you. See the [FTC's cosigning guide](https://consumer.ftc.gov/articles/cosigning-loan-faqs).
+
 ## Rules for signing anything
 
 - Never sign a contract with blank spaces. Cross them out or fill them in first.
 - Ask for a copy of everything you sign, and keep it.
 - If a salesperson says something important ("you can cancel anytime"), ask them to put it in writing. If it is not in the contract, it usually does not count.
 - Take your time. Saying "I'd like to read this at home" is always allowed.
-- Never sign as a cosigner for a friend's loan or lease unless you can afford to pay it all yourself. A **cosigner** owes the full amount if the other person does not pay.
+- Before cosigning, decide whether you could repay the full debt and any allowed fees yourself.
 
 The CFPB and FTC have plain-language guides at [consumerfinance.gov](https://www.consumerfinance.gov) and [consumer.ftc.gov](https://consumer.ftc.gov).
 
 ```takeaways
-- At 18, contracts are binding. Read before you sign.
+- Check your state's age rules, and read before you sign.
 - Find the total cost, the term, auto-renewal, cancellation terms, and penalties.
 - "Free" phones and cheap memberships can cost much more over the full contract.
-- Never sign with blanks, and get every promise in writing.
+- Cosigning can make you responsible for the full unpaid debt and allowed fees.
 ```
 
 ```quiz
@@ -80,9 +96,9 @@ The CFPB and FTC have plain-language guides at [consumerfinance.gov](https://www
 - Whichever is better for you
 > The written contract is what is enforced. Ask for any promise in writing before you sign.
 
-? What does auto-renewal mean?
-- The company will remind you before charging you
-- The contract ends on its own after the term
-+ The contract renews and charges you again unless you cancel in time
-> Set a reminder before the renewal date so you can decide whether to keep it.
+? Luis owes $2,460 as a cosigner and has $800 saved. What does his friend's promise to pay change?
+- Luis only owes the $800 he has saved
+- Luis is automatically released from the loan
++ The promise does not remove Luis's responsibility for the debt
+> Luis still faces a $1,660 shortfall after using his savings. Cosigning creates a repayment obligation, not a character reference.
 ```

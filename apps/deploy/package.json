@@ -9,11 +9,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@alchemy.run/cloudflare": "2.0.0-beta.87",
     "@bfb/api": "workspace:*",
     "@bfb/web": "workspace:*",
-    "@effect/platform-bun": "4.0.5",
-    "alchemy": "2.0.0-beta.83",
-    "effect": "4.0.5"
+    "@effect/platform-bun": "4.1.4",
+    "alchemy": "2.0.0-beta.87",
+    "effect": "4.1.4"
   },
   "hvs": {
     "checks": {

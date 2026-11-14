@@ -9,7 +9,7 @@
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.test.json"
   },
   "dependencies": {
-    "effect": "4.0.5"
+    "effect": "4.1.4"
   },
   "hvs": {
     "checks": {

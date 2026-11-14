@@ -12,20 +12,22 @@ Built on the cafe stack (Cloudflare, Alchemy, Foldkit, Effect) with [Foldworks](
 
 ## What's here
 
-86 lessons in 12 topics:
+93 lessons in 12 topics:
 
 - **Money basics** (7): Needs and wants, trade-offs, goals, and the habits everything else builds on.
 - **Banking** (8): Checking and savings accounts, debit cards, statements, fees, and keeping your money safe.
-- **Work and paychecks** (7): Your first job: the paperwork, the pay stub, and why your check is smaller than you expected.
+- **Work and paychecks** (8): Your first job: the paperwork, the pay stub, and why your check is smaller than you expected.
 - **Taxes** (6): How income tax works, what withholding is, and how to file your first return.
-- **Budgets and bills** (8): Plan where your money goes, keep bills on time, and price out life on your own.
-- **Saving** (6): Emergency funds, interest, and where to keep money you will need later.
-- **Credit and borrowing** (9): Credit scores, credit cards, loans, and the borrowing traps to stay out of.
+- **Budgets and bills** (12): Plan where your money goes, keep bills on time, and price out life on your own.
+- **Saving** (7): Emergency funds, interest, and where to keep money you will need later.
+- **Credit and borrowing** (10): Credit scores, credit cards, loans, and the borrowing traps to stay out of.
 - **Investing** (8): Risk and return, index funds, retirement accounts, and why starting young matters.
 - **Fraud and scams** (11): Spot the tricks scammers use on teens, protect your identity, and know what to do if it happens.
 - **Insurance** (5): How insurance works, and the policies you will meet first: car, health, and renters.
 - **Paying for college** (6): What school really costs, the FAFSA, free money, and student loans.
 - **Turning 18** (5): What changes when you become a legal adult: contracts, cars, and your rights as a customer.
+
+Practice challenges combine a first paycheck, an apartment plan, and an unexpected bill. Each asks you to decide before showing the worked answer.
 
 Seven calculators, on lesson pages and together at `/tools`: paycheck estimator, compound growth, 50/30/20 budget, credit card payoff, emergency fund planner, loan calculator, and price in hours of work.
 

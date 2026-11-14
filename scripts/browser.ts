@@ -91,7 +91,7 @@ export async function verifyBrowser(mode: HostMode): Promise<void> {
       await expect(
         page.getByRole('heading', {
           level: 1,
-          name: 'Minimum wage and teen work rules',
+          name: 'Challenge your first paycheck plan',
         }),
       ).toBeVisible()
       await page.goto(`${url}/fraud/phishing-texts-and-emails`)

@@ -687,6 +687,86 @@
       "hash": "e5b47263462b54cf2dfe59a8cc3c8a09622e528bdea0966a2344052eb4024f92",
       "rules": "2026",
       "note": "Initial 86 lessons across 12 topics, checked against 2026 figures"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "budgeting/apartment-plan-challenge",
+      "kind": "added",
+      "hash": "1f5d0157fed04cedb0db6f9e936dddbac5b4f13c21502a627aee98ef0fff4fad",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "budgeting/comparing-prices",
+      "kind": "added",
+      "hash": "9342cbb5ce37ad9d5320dbf1035bc75e6493685459fa60584227b5badca517ca",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "budgeting/unexpected-bill-challenge",
+      "kind": "added",
+      "hash": "02b5bdcd64e5e015dfbbf7d528a7f99ffe746b353c8f3071d931ea3e4ea8f793",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "budgeting/when-money-runs-short",
+      "kind": "added",
+      "hash": "cb6643ee4ce88d6a83ed008c0a50e7f0eaae4137ff50b656397f876d8780d719",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "college/cost-of-attendance",
+      "kind": "modified",
+      "hash": "b297531c8c3f11495e9752cd89f8702a78d351e5062ea9dd2185856eeffea428",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "credit/debt-collectors",
+      "kind": "added",
+      "hash": "e4a5c6cc36ab9b3885fc47cda8db7919c77f7c264cf9c5320bf0ca58cad2fa2c",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "saving/inflation-and-buying-power",
+      "kind": "added",
+      "hash": "d13a9cc27bc2462aed55f6b3ba4fb2e91dbf52ff5b70dda1b8ab2d52f99545b2",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "turning-18/reading-a-contract",
+      "kind": "modified",
+      "hash": "bfaa96f6709c57af31c92b7b8ca28b14175a1e6496e57e1ede0acd736d7fb517",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "work/first-paycheck-challenge",
+      "kind": "added",
+      "hash": "54b2fae0eb5f044a27252015c298e0272ccf9bb60b638b82ad2a65e647e5d219",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
+    },
+    {
+      "date": "2026-11-14",
+      "key": "work/reading-a-pay-stub",
+      "kind": "modified",
+      "hash": "d6a0818875a3361066c042ed38f27e881187a0ca9e6083ae35cd0ed0c66499a7",
+      "rules": "2026",
+      "note": "Add cash-flow recovery, price comparison, debt collection, inflation and three practice challenges; deepen paycheck correction, cosigning and college aid examples"
     }
   ]
 }

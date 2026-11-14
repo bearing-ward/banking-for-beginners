@@ -406,8 +406,8 @@ export const update = (model: Model, message: Message) =>
 // SUBSCRIPTION
 
 export const subscriptions = Subscription.make<Model, Message>()(() => ({
-  filterShortcut: Subscription.persistent(
-    Subscription.keyBindings<Message>({
+  filterShortcut: Subscription.persistentEntry(
+    Dom.streamFromKeyBindings<Message>({
       bindings: [
         {
           keys: 'Mod+K',

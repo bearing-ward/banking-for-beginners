@@ -1,5 +1,5 @@
 import * as Alchemy from 'alchemy'
-import * as Cloudflare from 'alchemy/Cloudflare'
+import * as Cloudflare from '@alchemy.run/cloudflare'
 import { Config, Effect, Layer, Option } from 'effect'
 
 import { projectName } from '../../scripts/project.ts'
@@ -19,7 +19,10 @@ export default Alchemy.Stack(
       name: projectName,
       rootDir: new URL('../web', import.meta.url).pathname,
       main: '../api/src/worker.ts',
-      assets: { runWorkerFirst: ['/api/*'] },
+      assets: {
+        runWorkerFirst: ['/api/*'],
+        notFoundHandling: 'single-page-application',
+      },
       ...Option.match(port, {
         onNone: () => ({}),
         onSome: (value) => ({ dev: { port: value, strictPort: true } }),

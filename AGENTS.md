@@ -27,6 +27,6 @@ When starting a session on this project, run `bun run content:status` and tell t
 
 ## Effect version
 
-Every Effect release-train package (`effect`, `@effect/platform-*`) resolves to one exact version. Today that is 4.0.5. Bump it in every workspace manifest and in root `overrides`. Foldkit pins its `@effect/platform-browser` peer exactly, and Bun overrides don't rewrite peers, so root `resolutions` also pins that package. After `bun install`, confirm `bun.lock` lists only one version of each train package.
+Every Effect release-train package (`effect`, `@effect/platform-*`) resolves to one exact version. Today that is 4.1.4. Bump it in every workspace manifest and in root `overrides`. Root `resolutions` also pins `@effect/platform-browser`. After `bun install`, confirm `bun.lock` lists only one version of each train package.
 
-Foldkit 0.165–0.168 declares `effect: 4.0.0`. effect 4.0.5 turned `Crypto.randomUUIDv4`/`randomUUIDv7` into methods, which silently broke the Vite plugin's DevTools MCP relay. `patches/@foldkit%2Fvite-plugin@0.26.0.patch` carries that one-line fix. Drop it once Foldkit supports the new API. Patch-level Effect releases can break dependents, so run the full `bun run verify` after every bump.
+Foldkit 0.170 supports Effect 4.1. The old Vite plugin UUID relay patch is no longer needed. Patch-level Effect releases can break dependents, so run the full `bun run verify` after every bump.

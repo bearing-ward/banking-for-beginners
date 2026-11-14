@@ -30,38 +30,38 @@
     "lessons:show": "bun run scripts/show-lesson.ts"
   },
   "dependencies": {
-    "effect": "4.0.5"
+    "effect": "4.1.4"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "5.20261013.1",
-    "@effect/tsgo": "0.48.0",
-    "@foldkit/devtools-mcp": "0.24.0",
-    "@modelcontextprotocol/sdk": "1.29.0",
-    "@playwright/test": "1.63.0",
-    "@types/bun": "1.4.3",
+    "@cloudflare/workers-types": "5.20261114.1",
+    "@effect/tsgo": "0.69.0",
+    "@foldkit/devtools-mcp": "0.26.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "@playwright/test": "1.65.1",
+    "@types/bun": "1.4.4",
     "miniflare": "4.20260730.0",
-    "oxfmt": "0.71.0",
-    "oxlint": "1.86.0",
-    "portless": "0.15.7",
+    "oxfmt": "0.78.0",
+    "oxlint": "1.93.0",
+    "portless": "0.17.0",
     "typescript": "7.0.2",
-    "vite": "8.3.2",
-    "vitest": "5.0.4"
+    "vite": "8.3.8",
+    "vitest": "5.1.0"
   },
   "resolutions": {
-    "@effect/platform-browser": "4.0.5"
+    "@effect/platform-browser": "4.1.4"
   },
   "overrides": {
-    "@effect/platform-browser": "4.0.5",
-    "@effect/platform-bun": "4.0.5",
-    "@effect/platform-node": "4.0.5",
-    "@effect/platform-node-shared": "4.0.5",
-    "@effect/sql-d1": "4.0.5",
-    "@effect/sql-sqlite-do": "4.0.5",
-    "@effect/sql-sqlite-node": "4.0.5",
-    "@effect/sql-sqlite-wasm": "4.0.5",
-    "@foldkit/ui": "0.165.0",
-    "effect": "4.0.5",
-    "foldkit": "0.165.0"
+    "@effect/platform-browser": "4.1.4",
+    "@effect/platform-bun": "4.1.4",
+    "@effect/platform-node": "4.1.4",
+    "@effect/platform-node-shared": "4.1.4",
+    "@effect/sql-d1": "4.1.4",
+    "@effect/sql-sqlite-do": "4.1.4",
+    "@effect/sql-sqlite-node": "4.1.4",
+    "@effect/sql-sqlite-wasm": "4.1.4",
+    "@foldkit/ui": "0.170.0",
+    "effect": "4.1.4",
+    "foldkit": "0.170.0"
   },
   "engines": {
     "bun": ">=1.4.3",
@@ -88,8 +88,5 @@
     "starter": {
       "preset": "cloudflare-app"
     }
-  },
-  "patchedDependencies": {
-    "@foldkit/vite-plugin@0.26.0": "patches/@foldkit%2Fvite-plugin@0.26.0.patch"
   }
 }
